@@ -1,0 +1,19 @@
+.header__button-out {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: right;
+  border: none;
+  background-color: black;
+  color: #A9A9A9;
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.header__button-out:hover {
+  opacity: 0.6;
+}

@@ -1,0 +1,9 @@
+.popup__input_type_about-me {
+  margin-top: 26px;
+}
+
+@media screen and (min-width: 390px) {
+  .popup__input_type_about-me {
+    margin-top: 27px;
+  }
+}
