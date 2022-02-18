@@ -12,7 +12,6 @@ function Login(props) {
       return;
     }
     props.handleLogin(formData);
-    setFormData({ username: '', password: '' });
   }
 
   function handleChange(e) {
