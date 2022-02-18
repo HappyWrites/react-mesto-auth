@@ -1,5 +1,5 @@
 ### Работа выполнена Назаровой Анастасией с применением технологий flex-box и grid layout, соблюдением файловой методологии БЭМ, а также построением функционала, реализованного на языке JavaScript на фреймворке react: возможность редактирования профиля, добавления и удаления карточек, инициализация карточек через запрос от сервера, валидация форм. Все взаимодействие с пользователем происходит посредством API.
 
 * [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
-* [Ссылка на проект в GH](https://happywrites.github.io/mesto-react/index.html)
-* [Ссылка на проект в GH](https://HappyWrites.github.io/mesto-react)
+* [Ссылка на проект в GH](https://happywrites.github.io/react-mesto-auth)
+
