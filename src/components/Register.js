@@ -20,6 +20,7 @@ function Register(props) {
       [name]: value
     });
   }
+  
 
   return (
     <section className="mode">
