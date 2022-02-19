@@ -108,7 +108,7 @@ function App() {
   }
 
   function handleRegistration(formData) {
-    auth.register(formData.email, formData.password)
+    auth.register(formData.password, formData.email)
       .then((res) => {
         setIsPopupRegistration(true);
         setIsSuccess(true);
@@ -121,7 +121,7 @@ function App() {
   }
 
   function handleLogin(formData) {
-    auth.authorize(formData.email, formData.password)
+    auth.authorize(formData.password, formData.email)
       .then((data) => {
         localStorage.setItem('token', data.token);
         setLoggedIn(true);
@@ -129,6 +129,7 @@ function App() {
         setEmailUser(formData.email)
       })
       .catch((err) => {
+        setIsSuccess(false);
         setIsPopupRegistration(true);
         console.log("ОШИБКА: Неверный логин или пароль")
       })
