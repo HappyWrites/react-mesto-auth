@@ -128,7 +128,10 @@ function App() {
         history.push("/");
         setEmailUser(formData.email)
       })
-      .catch(err => console.log(err));
+      .catch((err) => {
+        setIsPopupRegistration(true);
+        console.log("ОШИБКА: Неверный логин или пароль")
+      })
   }
 
   function logOut() {

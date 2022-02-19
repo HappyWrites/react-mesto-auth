@@ -11,7 +11,7 @@ function Login(props) {
     if (!formData.email || !formData.password) {
       return;
     }
-    props.handleLogin(formData);
+    props.handleLogin(formData)
   }
 
   function handleChange(e) {
